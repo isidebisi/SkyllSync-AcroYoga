@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/categoriesFragment"
+        android:icon="@drawable/baseline_library_books_24"
+        android:title="@string/categoriesMenuItem" />
+    <item
+        android:id="@+id/myProfileFragment"
+        android:icon="@drawable/baseline_person_outline_24"
+        android:title="@string/my_profile" />
+    <item
+        android:id="@+id/trainingStatsFragment"
+        android:icon="@drawable/stats"
+        android:title="@string/training_stats"/>
+
+</menu>

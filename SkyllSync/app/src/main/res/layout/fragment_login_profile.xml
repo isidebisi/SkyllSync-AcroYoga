@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/Userimage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/no_image" />
+
+
+    <LinearLayout
+        android:id="@+id/EditTexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:hint="@string/username"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:hint="@string/password"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ConfirmPickImageButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:text="@string/signin"
+            />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:text="@string/signup" />
+    </LinearLayout>
+</LinearLayout>

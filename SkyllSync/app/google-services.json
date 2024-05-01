@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "840297971728",
+    "firebase_url": "https://skyllsync-default-rtdb.europe-west1.firebasedatabase.app/",
+    "project_id": "skyllsync",
+    "storage_bucket": "skyllsync.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840297971728:android:074c9e127b1640304e4a95",
+        "android_client_info": {
+          "package_name": "com.example.skyllsync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcaOfAPc_ONABtNYcdzrCp8wSFI8InmK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

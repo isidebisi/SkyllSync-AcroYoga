@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginProfileFragment">
+    <fragment
+        android:id="@+id/takePictureFragment"
+        android:name="com.example.skyllsync.TakePictureFragment"
+        android:label="fragment_take_picture"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_takePictureFragment_to_takeVideoFragment"
+            app:destination="@id/takeVideoFragment"
+            app:popUpTo="@id/takePictureFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_takePictureFragment_to_skillFragment"
+            app:destination="@id/skillFragment"
+            app:popUpTo="@id/takePictureFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/takeVideoFragment"
+        android:name="com.example.skyllsync.TakeVideoFragment"
+        android:label="fragment_take_video"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_takeVideoFragment_to_takePictureFragment"
+            app:destination="@id/takePictureFragment"
+            app:popUpTo="@id/takeVideoFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_takeVideoFragment_to_skillFragment"
+            app:destination="@id/skillFragment"
+            app:popUpTo="@id/takeVideoFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.skyllsync.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_skillListFragment"
+            app:destination="@id/skillListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillListFragment"
+        android:name="com.example.skyllsync.SkillListFragment"
+        android:label="fragment_skill_list"
+        tools:layout="@layout/fragment_skill_list" >
+        <action
+            android:id="@+id/action_skillListFragment_to_skillFragment"
+            app:destination="@id/skillFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillFragment"
+        android:name="com.example.skyllsync.SkillFragment"
+        android:label="fragment_skill"
+        tools:layout="@layout/fragment_skill" >
+        <action
+            android:id="@+id/action_skillFragment_to_takePictureFragment"
+            app:destination="@id/takePictureFragment" />
+        <action
+            android:id="@+id/action_skillFragment_to_takeVideoFragment"
+            app:destination="@id/takeVideoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginProfileFragment"
+        android:name="com.example.skyllsync.LoginProfileFragment"
+        android:label="fragment_login_profile"
+        tools:layout="@layout/fragment_login_profile" >
+        <action
+            android:id="@+id/action_loginProfileFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.example.skyllsync.MyProfileFragment"
+        android:label="fragment_my_profile"
+        tools:layout="@layout/fragment_my_profile" >
+        <action
+            android:id="@+id/action_myProfileFragment_to_loginProfileFragment"
+            app:destination="@id/loginProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trainingStatsFragment"
+        android:name="com.example.skyllsync.TrainingStatsFragment"
+        android:label="fragment_training_stats"
+        tools:layout="@layout/fragment_training_stats" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.skyllsync.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

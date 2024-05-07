@@ -10,5 +10,8 @@ With it you can :
 
 ...and much more !
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VTzfSM9q5eM/0.jpg)](https://www.youtube.com/watch?v=VTzfSM9q5eM)
+
+
 This project is developed by Ismael Frei and Barbara De Groot as a Final Project in the scope of a Course at EPFL to develop an Android App.
 

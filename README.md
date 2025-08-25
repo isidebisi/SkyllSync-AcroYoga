@@ -10,7 +10,7 @@ With it you can :
 
 ...and much more !
 
-*Watch the video below for a Demo !*
+*Watch the video below for a Demo !* \
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VTzfSM9q5eM/0.jpg)](https://www.youtube.com/watch?v=VTzfSM9q5eM)
 
 

@@ -8,10 +8,10 @@ With it you can :
 - take pictures/videos remotely using your smartwatch
 - synchronize skills with your acroyoga partner
 
-...and much more !
-<span style="color:red">
+...and much more ! \
+
 **Watch the video below for a Demo !** \
-</span>
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VTzfSM9q5eM/0.jpg)](https://www.youtube.com/watch?v=VTzfSM9q5eM)
 
 

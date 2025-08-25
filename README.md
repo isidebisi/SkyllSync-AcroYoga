@@ -9,8 +9,9 @@ With it you can :
 - synchronize skills with your acroyoga partner
 
 ...and much more !
-
+<span style="color:red">
 **Watch the video below for a Demo !** \
+</span>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VTzfSM9q5eM/0.jpg)](https://www.youtube.com/watch?v=VTzfSM9q5eM)
 
 
